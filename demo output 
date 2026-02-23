@@ -1,0 +1,63 @@
+=== Shape Demonstration Program ===
+
+CIRCLE:
+  Radius: 5.0
+  Area: 78.54
+  Circumference: 31.42
+
+PARALLELOGRAM:
+  Base: 6.0
+  Side: 4.0
+  Height: 3.0
+  Area: 18.00
+  Perimeter: 20.00
+  Number of sides: 4
+
+RECTANGLE:
+  Length: 4.0
+  Width: 6.0
+  Area: 24.00
+  Perimeter: 20.00
+  Number of sides: 4
+  Is a Parallelogram? true
+
+SQUARE:
+  Side: 5.0
+  Area: 25.00
+  Perimeter: 20.00
+  Number of sides: 4
+  Is a Rectangle? true
+  Is a Parallelogram? true
+
+RIGHT TRIANGLE:
+  Leg 1: 3.0
+  Leg 2: 4.0
+  Hypotenuse: 5.00
+  Area: 6.00
+  Perimeter: 12.00
+  Number of sides: 3
+
+ISOSCELES RIGHT TRIANGLE:
+  Leg: 5.0
+  Hypotenuse: 7.07
+  Area: 12.50
+  Perimeter: 17.07
+  Number of sides: 3
+  Is a RightTriangle? true
+
+POLYMORPHISM DEMONSTRATION:
+Treating all shapes as Shape objects:
+  Shape 1: Circle - Area: 78.54, Perimeter: 31.42
+  Shape 2: Parallelogram - Area: 18.00, Perimeter: 20.00
+  Shape 3: Rectangle - Area: 24.00, Perimeter: 20.00
+  Shape 4: Square - Area: 25.00, Perimeter: 20.00
+  Shape 5: RightTriangle - Area: 6.00, Perimeter: 12.00
+  Shape 6: IsoscelesRightTriangle - Area: 12.50, Perimeter: 17.07
+
+POLYGON INTERFACE DEMONSTRATION:
+All polygons and their sides:
+  Parallelogram has 4 sides
+  Rectangle has 4 sides
+  Square has 4 sides
+  RightTriangle has 3 sides
+  IsoscelesRightTriangle has 3 sides

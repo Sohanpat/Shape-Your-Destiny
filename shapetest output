@@ -1,0 +1,93 @@
+
+
+
+  === Shape Inheritance and Polymorphism Tests ===
+
+PART ONE: Base Shape Classes
+----------------------------------------
+Testing Circle:
+  ✓ PASS: Circle area
+  ✓ PASS: Circle perimeter
+  ✓ PASS: Circle(3) area
+  ✓ PASS: Circle(3) perimeter
+Testing Parallelogram:
+  ✓ PASS: Parallelogram area
+  ✓ PASS: Parallelogram perimeter
+  ✓ PASS: Parallelogram has 4 sides
+  ✓ PASS: Parallelogram(8,5,4) area
+  ✓ PASS: Parallelogram(8,5,4) perimeter
+  ✓ PASS: Parallelogram is a Shape
+  ✓ PASS: Parallelogram is a Polygon
+Testing Rectangle:
+  ✓ PASS: Rectangle area
+  ✓ PASS: Rectangle perimeter
+  ✓ PASS: Rectangle(5,10) area
+  ✓ PASS: Rectangle(5,10) perimeter
+  ✓ PASS: Rectangle is a Parallelogram
+  ✓ PASS: Rectangle is a Shape
+  ✓ PASS: Rectangle is a Polygon
+Testing RightTriangle:
+  ✓ PASS: RightTriangle area
+  ✓ PASS: RightTriangle perimeter
+  ✓ PASS: RightTriangle hypotenuse
+  ✓ PASS: RightTriangle(5,12) area
+  ✓ PASS: RightTriangle(5,12) perimeter
+
+PART TWO: Derived Classes (Inheritance Tree)
+----------------------------------------
+Testing Square:
+  ✓ PASS: Square area
+  ✓ PASS: Square perimeter
+  ✓ PASS: Square(7) area
+  ✓ PASS: Square(7) perimeter
+  ✓ PASS: Square is a Rectangle
+  ✓ PASS: Square is a Parallelogram
+  ✓ PASS: Square is a Shape
+  ✓ PASS: Square is a Polygon
+Testing IsoscelesRightTriangle:
+  ✓ PASS: IsoscelesRightTriangle area
+  ✓ PASS: IsoscelesRightTriangle perimeter
+  ✓ PASS: IsoscelesRightTriangle hypotenuse
+  ✓ PASS: IsoscelesRightTriangle(4) area
+  ✓ PASS: IsoscelesRightTriangle is a RightTriangle
+  ✓ PASS: IsoscelesRightTriangle is a Shape
+
+PART THREE: Polygon Interface
+----------------------------------------
+Testing Polygon Interface:
+  ✓ PASS: Parallelogram has 4 sides
+  ✓ PASS: Rectangle has 4 sides
+  ✓ PASS: Square has 4 sides
+  ✓ PASS: RightTriangle has 3 sides
+  ✓ PASS: IsoscelesRightTriangle has 3 sides
+  ✓ PASS: Parallelogram implements Polygon
+  ✓ PASS: Rectangle implements Polygon
+  ✓ PASS: Square implements Polygon
+  ✓ PASS: RightTriangle implements Polygon
+  ✓ PASS: IsoscelesRightTriangle implements Polygon
+
+BONUS: Polymorphism Tests
+----------------------------------------
+Testing Polymorphism:
+  Processing array of Shape objects:
+    Shape 1: Area=28.27, Perimeter=18.85
+    Shape 2: Area=18.00, Perimeter=20.00
+    Shape 3: Area=20.00, Perimeter=18.00
+    Shape 4: Area=36.00, Perimeter=24.00
+    Shape 5: Area=6.00, Perimeter=12.00
+    Shape 6: Area=12.50, Perimeter=17.07
+  Total area of all shapes: 120.77
+  Total perimeter of all shapes: 109.92
+  Processing array of Polygon objects:
+    Polygon 1: 4 sides
+    Polygon 2: 4 sides
+    Polygon 3: 4 sides
+    Polygon 4: 3 sides
+    Polygon 5: 3 sides
+  Total sides of all polygons: 18
+
+=== Test Summary ===
+Tests Passed: 48
+Tests Failed: 0
+Total Tests: 48
+✓ All tests passed!
